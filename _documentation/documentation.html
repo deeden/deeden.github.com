@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Documentation: Bold CV/Resume Template</title>
+
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" media="all" href="../style.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../schemes/print.css" />
+</head>
+
+<body id="top">
+	<div id="wrap">
+		<div class="section topsection">
+			<h1>Documentation: Bold CV/Resume Template</h1>
+
+			<p><strong>Last updated:</strong> 27 November 2011</p>
+			
+			<p>Thank you for purchasing the <strong>Bold CV/Resume Template</strong>. The current documentation file is meant to provide you with the help you need to setup and customize your online CV/resume. If you find yourself in need of help that you cannot get through the information presented here, feel free to address your questions via the emailing system on <a href="http://themeforest.net/user/QBKL" target="_blank">our ThemeForest profile page</a>.</p>
+		</div>
+
+		<div class="section" id="contents">
+			<h2>Table of Contents</h2>
+
+			<ul>
+				<li><a href="#setup">01. Setting up the template</a></li>
+				<li><a href="#configuration">02. Required and optional configurations</a></li>
+				<li><a href="#editing">03. Editing the template</a></li>
+				<li><a href="#credits">04. Credits and author information</a></li>
+			</ul>
+		</div>
+
+		<div class="section" id="setup">
+			<h2>01. Setting up the template</h2>
+
+			<div class="column" style="padding-top: 0;"><img src="img/bold-1.jpg" class="photo" alt="Bold: Bold headings" /></div>
+			<div class="column" style="padding-top: 0;"><img src="img/bold-2.jpg" class="photo" alt="Bold: Social Media" /></div>
+			<div class="column lastcolumn" style="padding-top: 0;"><img src="img/bold-3.jpg" class="photo" alt="Bold: Skills" /></div>
+			<div class="clear"></div>
+
+			<div class="column">
+				<h3 class="mt0">A. Editing and configuration</h3>
+				Aside from <a href="#editing">the regular editing</a> of the <strong><em style="color: black">index.php</em></strong>, where you adjust the content to your needs, first you'll have to <a href="#configuration">adjust the configuration settings</a> in <strong><em style="color: black">inc-settings.php</em></strong>.
+			</div>
+			<div class="column">
+				<h3 class="mt0">B. PHP Support</h3>
+				In order for the template to function properly, your server needs to be setup to interpret PHP scripts, but that's a given with most of today's hosting companies.
+			</div>
+			<div class="column lastcolumn">
+				<h3 class="mt0">C. Installation</h3>
+				Setting up the template is a very easy job! Basically, all you have to do is to move the contents of the downloaded archive to your FTP account, with or without the <strong><em style="color: black">documentation</em></strong> folder.
+			</div>
+			<div class="clear ruler"></div>
+			<p style="Text-align: right;"><a href="#contents">Table of contents</a></p>
+		</div>
+
+		<div class="section" id="configuration">
+			<h2>02. Required and optional configurations</h2>
+
+			<img src="img/bold-4.jpg" class="photo" alt="Bold: Configuration" />
+
+			<p>In order to adjust the template's configuration you will need to open the <strong><em style="color: black">inc-settings.php</em></strong> file located in the root folder of the archive with your text/code editor of choice (Notepad works just fine, if nothing else is available).</p>
+
+
+			<h3>A. Required configurations values:</h3>
+			<ul>
+				<li>WEBMASTER_EMAIL</li>
+			</ul>
+			<p>Make sure you fill in your real and valid email address, otherwise the contact form will not work.</p>
+
+			<h3>B. Optional configurations values:</h3>
+			<ul>
+				<li>COLOR_SCHEME (Accepted values: empty, default, light, dark, red, green, cyan, purple, wood or baroque)</li>
+				<li>SM_BLOG_URL (Please include "http://")</li>
+				<li>SM_TWITTER_ID</li>
+				<li>SM_FACEBOOK_ID</li>
+				<li>SM_LINKEDIN_ID</li>
+				<li>SM_FLICKR_ID</li>
+				<li>SM_YOUTUBE_ID</li>
+				<li>SM_YAHOO_MESSENGER_ID</li>
+				<li>SM_SKYPE_ID</li>
+			</ul>
+			<p>All settings with names ending in "_ID" should not contain full URL paths, but only the USERNAME you have set.<br />
+			An example of username that you could pick up for Flickr is: <em>http://www.flickr.com/people/<strong>qbkl</strong>/</em>. The filled in setting would look like this:<br />
+<pre>
+define ('SM_FLICKR_ID', 'qbkl');
+</pre>
+			</p>
+
+			<p>You can either fill in all of the social media settings or none. These are all options and the social media menu displayed in the template will be <strong>generated automatically</strong> based on the settings that you have filled in.</p>
+
+			<div class="clear ruler"></div>
+			<p style="Text-align: right;"><a href="#contents">Table of contents</a></p>
+		</div>
+
+		<div class="section" id="editing">
+			<h2>03. Editing the template</h2>
+
+			<p>In its <a href="sample-sections.html">predefined form</a>, the "Bold" CV / resume template contains the most common information and utilities found in resumes:</p>
+			<ul>
+				<li>Name, job title, photo, introductory message and contact information (with social media profiles);</li>
+				<li>Personal and professional profile;</li>
+				<li>Technical Skills (Aptitudes);</li>
+				<li>Work experience / history (Current and previous jobs);</li>
+				<li>Education;</li>
+				<li>Client list and work samples;</li>
+				<li>Contact form;</li>
+				<li>Print template and a PDF generation module.</li>
+			</ul>
+
+			<p>In order to easily create and add new sections to your CV/resume, we have prepared a documentation page that provides you with the 4 sample sections and the code used to generate them. <a href="sample-sections.html">Click here to load this sample page</a>.</p>
+
+			<p>Also, before heading in to editing the template or creating new sections yourself, here are some things that might come in handy:</p>
+			<table class="mt10">
+				<tr>
+					<td style="font-weight: bold; width: 200px; padding-top:10px">&lt;div class=&quot;ruler&quot;&gt;&lt;/div&gt;</td>
+					<td style="padding-top:10px">Use this piece of code whenever you want to create a new row of columns within a section. Best exemplified in <a href="sample-sections.html#sample4">section 4 of the sample sections page</a>.</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold; width: 200px; padding-top:10px">mt0, mt10, mt20, mt30</td>
+					<td style="padding-top:10px">Using these classes on your resume's HTML elements will set those elements' top margin to 0, 10, 20 or 30 pixels. When working with more content within a section or starting your column's content with a heading you'll find it useful to negate the default top margin of that heading like this <span style="background: #000; color: #fff; font-style: italic">&lt;H3 class=&quot;mt0&quot;&gt;</span></td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold; width: 200px; padding-top:10px">Column classes</td>
+					<td style="padding-top:10px">
+						<ul>
+							<li><strong>&lt;div class=&quot;column&quot;&gt;</strong> - creates a 1/3 content column.</li>
+							<li><strong>&lt;div class=&quot;column titlecolumn&quot;&gt;</strong> - creates a 1/3 title column with a double border at top for design purposes. Only use as first column in a row to preserve style. Inside it, use <span style="background: #000; color: #fff; font-style: italic">&lt;h2 class=&quot;sectiontitle&quot;&gt;</span> to define your section titles.</li>
+							<li><strong>&lt;div class=&quot;largecolumn&quot;&gt;</strong> - creates a 2/3 content column and should only be used after a <span style="background: #000; color: #fff; font-style: italic">&lt;div class=&quot;column&quot;&gt;</span> or a <span style="background: #000; color: #fff; font-style: italic">&lt;div class=&quot;column titlecolumn&quot;&gt;</span></li>
+							<li>A <strong>.largecolumn</strong> can act like a container for a 2-column structure as sampled in <a href="sample-sections.html#sample4">section 4 of the sample sections page</a>.</li>
+							<li><strong>When creating the last column in a row</strong> (3rd in a 3 column structure, or 2nd if contained within a <em>.largecolumm</em>) always add the class <em>.lastcolumn</em> to negate its right margin, like this: <span style="background: #000; color: #fff; font-style: italic">&lt;div class=&quot;column lastcolumn&quot;&gt;</span></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold; width: 200px; padding-top:10px">Technical skill levels</strong></td>
+					<td style="padding-top:10px">Setting up your technical skill level is pretty easy. The visual representation of a skill level is obtained with a piece of code like this: <span style="background: #000; color: #fff; font-style: italic">&lt;div class=&quot;skillbar&quot; title=&quot;Average&quot;&gt;&lt;div class=&quot;skillbarfill skill40&quot;&gt;Average&lt;/div&gt;&lt;/div&gt;</span>. You will notice the <strong>skill40</strong> class applied. This means the yellow bar will fill 40% of the ruler. You have at your disposal 10 such classes to use, in 10% steps: skill10, skill20, skill30, and so on until skill100.<br />Also, make sure you set the title of the .skillbar div to a meaningful value (used for the tooltip) and the content of the .skillbarfill div to the same value (used for the print template).</td>
+				</tr>
+			</table>
+
+			<div class="clear ruler"></div>
+			<p style="Text-align: right;"><a href="#contents">Table of contents</a></p>
+		</div>
+
+		<div class="section" id="credits">
+			<h2>04. Credits and author information</h2>
+
+			<p>We'd like to extend our thanks to those who share their skills and knowledge with the community and through their contributions make works like this template possible. Among them:</p>
+			<ul>
+				<li><a href="http://www.bitrepository.com/" target="_blank">Bit Repository</a> - Excellent collection of scripts</li>
+				<li><a href="http://jquery.com/" target="_blank">jQuery</a> - JavaScript frameworks</li>
+				<li>Mike Alsup for <a href="http://jquery.malsup.com/form/" target="_blank">jQuery.form.js</a> - jQuery form plugin</li>
+				<li>J&#246;rn Zaefferer for <a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/" target="_blank">jQuery.validate.js</a> - jQuery form validation plugin</li>
+				<li><a href="http://fancybox.net/" target="_blank">Fancybox</a> - Modal windows</li>
+				<li>Jason Frame for <a href="http://onehackoranother.com/projects/jquery/tipsy/" target="_blank">tipsy</a> - Nice tooltips</li>
+				<li>Paul Robert Lloyd for the <a href="http://paulrobertlloyd.com/2009/06/social_media_icons" target="_blank">Social Media Mini</a> icon set</li>
+				<li><a href="http://www.OlafErnst.com">Olaf Ernst</a> for the photos in the ThemeForest asset library</li>
+			</ul>
+
+			<p>Thank you for your purchase and good luck in your online saga!</p>
+			<p><a href="http://qbkl.net" target="_blank" title="QBKL"><img src="img/logo-qbkl.gif" alt="QBKL" title="QBKl" /></a></p>
+			<p><a href="http://qbkl.net" target="_blank" title="QBKL">QBKL Website</a><br /><a href="http://themeforest.net/user/QBKL" target="_blank" title="QBKL on ThemeForest">QBKL on ThemeForest</a></p>
+			<div class="clear ruler"></div>
+			<p style="Text-align: right;"><a href="#contents">Table of contents</a></p>
+		</div>
+	</div>
+</body>
+
+</html>
