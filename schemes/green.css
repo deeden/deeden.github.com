@@ -1,0 +1,9 @@
+/* Colorscheme: green */
+
+body { background: #9b0 url(../img/background-green.png); }
+
+body #wrap { border-bottom: 5px solid #790; }
+
+body a { color: #790; }
+
+body .ruler { border-bottom: 1px solid #790; }

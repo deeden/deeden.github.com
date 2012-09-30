@@ -1,0 +1,9 @@
+/* Colorscheme: baroque */
+
+body { background: #dfdbd0 url(../img/background-baroque.jpg); }
+
+body #wrap { border-bottom: 5px solid #7491a1; }
+
+body a { color: #7491a1; }
+
+body .ruler { border-bottom: 1px solid #7491a1; }

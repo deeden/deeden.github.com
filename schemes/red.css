@@ -1,0 +1,9 @@
+/* Colorscheme: red */
+
+body { background: #d30 url(../img/background-red.png); }
+
+body #wrap { border-bottom: 5px solid #d30; }
+
+body a { color: #d30; }
+
+body .ruler { border-bottom: 1px solid #d30; }

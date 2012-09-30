@@ -1,0 +1,13 @@
+/* Colorscheme: PDF */
+
+/* This scheme is not available for selection. It is used only for the PDF printing of your resume/CV */
+
+* { letter-spacing: 0!important; }
+
+body { background: #fff!important; }
+
+#wrap { background-image: none!important; }
+
+#wrap, .titlecolumn { border: none!important; }
+
+.cvoptions { display: none!important; }

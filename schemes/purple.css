@@ -1,0 +1,9 @@
+/* Colorscheme: purple */
+
+body { background: #3c1667 url(../img/background-purple.png); }
+
+body #wrap { border-bottom: 5px solid #3c1667; }
+
+body a { color: #3c1667; }
+
+body .ruler { border-bottom: 1px solid #3c1667; }

@@ -1,0 +1,9 @@
+/* Colorscheme: cyan */
+
+body { background: #72c8d7 url(../img/background-cyan.png); }
+
+body #wrap { border-bottom: 5px solid #2a8d9f; }
+
+body a { color: #2a8d9f; }
+
+body .ruler { border-bottom: 1px solid #2a8d9f; }
